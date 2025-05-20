@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be Inspired | Ecuadane Blankets</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; margin:0; padding:0; background: #f8f9fa; }
+    header { background: #15304b; color: #fff; padding: 2rem 1rem 1rem 1rem; text-align: center; }
+    h1 { font-size: 2.5rem; margin: 0 0 1rem 0; }
+    .hero-text { font-size: 1.2rem; margin-bottom: 2rem; color: #dae3ee; }
+    .categories { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 2rem 1rem; }
+    .category-card {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px rgba(21,48,75,0.07);
+      overflow: hidden;
+      text-align: center;
+      width: 320px;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+    .category-card:hover { transform: translateY(-8px) scale(1.025); }
+    .category-image { width: 100%; height: 180px; object-fit: cover; }
+    .category-title { font-size: 1.25rem; font-weight: bold; margin: 1rem 0 0.5rem 0; color: #15304b; }
+    .category-link { text-decoration: none; color: inherit; }
+    .footer-btn {
+      display: block; margin: 2rem auto 1.5rem auto;
+      background: #15304b; color: #fff; font-size: 1.1rem;
+      border: none; border-radius: 8px; padding: 1rem 2.5rem;
+      cursor: pointer; box-shadow: 0 2px 6px rgba(21,48,75,0.10);
+      transition: background 0.2s;
+    }
+    .footer-btn:hover { background: #204878; }
+    @media (max-width: 950px) {
+      .categories { gap: 1rem; }
+      .category-card { width: 90%; max-width: 400px; }
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      .hero-text { font-size: 1rem; }
+      .categories { flex-direction: column; align-items: center; gap: 1.5rem; }
+      .category-card { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Be Inspired by Custom Woven Excellence</h1>
+    <div class="hero-text">
+      Discover how leading organizations, clubs, and brands use custom blankets to create lasting memories and meaningful connections. Explore our portfolio and find inspiration for your own unique project.
+    </div>
+  </header>
+
+  <main>
+    <section class="categories">
+      <a class="category-link" href="clubs.html">
+        <div class="category-card">
+          <img class="category-image" src="https://via.placeholder.com/400x180?text=Clubs+%26+Associations" alt="Clubs & Associations">
+          <div class="category-title">Clubs & Associations</div>
+        </div>
+      </a>
+      <a class="category-link" href="ranches.html">
+        <div class="category-card">
+          <img class="category-image" src="https://via.placeholder.com/400x180?text=Guest+Ranches+%26+Hospitality" alt="Guest Ranches & Hospitality">
+          <div class="category-title">Guest Ranches & Hospitality</div>
+        </div>
+      </a>
+      <a class="category-link" href="universities.html">
+        <div class="category-card">
+          <img class="category-image" src="https://via.placeholder.com/400x180?text=Universities" alt="Universities">
+          <div class="category-title">Universities</div>
+        </div>
+      </a>
+      <a class="category-link" href="charities.html">
+        <div class="category-card">
+          <img class="category-image" src="https://via.placeholder.com/400x180?text=Charities" alt="Charities">
+          <div class="category-title">Charities</div>
+        </div>
+      </a>
+      <a class="category-link" href="corporations.html">
+        <div class="category-card">
+          <img class="category-image" src="https://via.placeholder.com/400x180?text=Corporations" alt="Corporations">
+          <div class="category-title">Corporations</div>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <a href="contact.html"><button class="footer-btn">Get Started</button></a>
+</body>
+</html>
